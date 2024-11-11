@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+
+
+header{
+  position: absolute;
+  top: 0;
+    height: 90px;
+    width: 100%;
+background-color: #708090;
+flex-wrap: wrap;
+}
+
+
+
+.logo{
+  display: table;
+  font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+.navgation ul li {
+  display: inline-block;
+  margin-left: 100px;
+  font-style: bold;
+  flex-wrap: wrap;
+  
+}
+.navgation ul li:hover {
+  color: #B0926A;
+  
+}
+.navgation ul{
+margin-left: 500px;
+font-size: 25px;
+font-weight: bold;
+color: aliceblue;
+font-family: "PT Serif", serif;
+flex-wrap: wrap;
+}
+.footer-c{
+  background-color: #708090;
+ padding:  4rem 0 4rem 0 ;
+
+}
+.footer{
+  height: 40vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+background-color: #708090;
+}
+.footer1,.footer2,.footer3{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  font-size: 20px;
+}
+.footer h1{
+  margin-bottom: 2rem;
+
+}
+.footer a{
+  color:whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.footer a:hover{
+  color:#B0926A;
+    font-size: 25px;
+  
+}
+.input{
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.input #email{
+width: 200px;
+height: 30px;
+outline: none;
+border: none;
+border-radius: 10px;
+padding-left: 10px;
+}
+.input #signup{
+width: 60px;
+height: 30px;
+border: none;
+background-color: black;
+color: white;
+font-size: 15px;
+border-radius: 10px;
+}
+.input #signup:hover{
+  width: 70px;
+  height: 40px;
+  background-color: red;
+  }
+  
+  
